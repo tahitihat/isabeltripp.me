@@ -1,0 +1,17 @@
+/*
+you can refer to any element with a class name but you idNames are specific
+*/
+
+/*This is a type name */
+#name {
+  color: red;
+}
+
+/*This is a class name */
+.help {
+  background-color: blue;
+}
+
+p {
+  font-size: 24px
+}
