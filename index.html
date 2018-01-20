@@ -5,15 +5,15 @@
     <link rel= "stylesheet" type= "text/css" href= "style.css"/>
     <!-- Latest compiled CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Latest compiled JavaScript JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- google fonts -->
 		<link rel="stylesheet" type="text/css"
 	          href="https://fonts.googleapis.com/css?family=Spinnaker">
   </head>
   <body>
-  <!-- nav bar navbar-fixed-top navbar-toggleable-md navbar-light bg-faded myNav -->
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top bg-faded">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
@@ -21,38 +21,59 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"> Isabel Tripp</a>
+        <a class="navbar-brand" href="index.html"> Isabel Tripp</a>
       </div>
     <div class="container">
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li><a href="education.html">Education</a></li>
-          <li><a href="CS1210_resume2.pdf">Resume</a></li>
+          <li><a href="books.html">Book List</a></li>
+          <li><a href="CS1210_resume2.pdf" target="_blank">Resume</a></li>
 
-          <li> <a class="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact
+          <li><a class="dropdown-toggle" data-toggle="dropdown" role="button">Connect
             <span class="caret"></span></a>
+
             <ul class="dropdown-menu">
               <li><a href="mailto:tripp.i@husky.neu.edu" title="Email" target="_blank">tripp.i@husky.neu.edu</a></li>
               <li><a href="https://linkedin.com/in/isabel-tripp" title="Linkedin" target="_blank">LinkedIn</a></li>
               <li><a href="https://github.com/tahitihat" title="Github" target="_blank">Github</a></li>
+              <li><a href="https://instagram.com/trippip" title="Instagram" target="_blank">Instagram</a></li>
             </ul>
+
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-
-
-  <!-- Bottom of page
-  <footer class="fixed-bottom">
-		<ul>
-			<li><a href="https://www.linkedin.com/in/isabel-tripp/" target="_blank">LinkedIn</a></li>
-			<li><a href="https://www.github.com/tahitihat" target="_blank">Github</a></li>
-			<li><a href="https://www.instagram.com/trippip/" target="_blank">Instagram</a></li>
-		</ul>
-	</footer> -->
-
+  <!-- content -->
+   <div class="bgA">
+     <div class="container-fluid">
+       <div class="row" style="padding-top: 6%;">
+         <div class="col-sm-4 col-sm-offset-1" id="about">
+           <img src="image1.JPG" width="306" height="409" alt="scotland">
+         </div>
+         <div class="col-sm-6">
+           <h1>Thanks for visiting!</h1>
+           <p> My name is Isabel Tripp and I'm currently a second year computer science student at Northeastern University in Boston, Massachusetts.</p>
+           <br>
+           <p/> I like to stay busy outside of school: </p>
+           <p> I work as a course assistant for Fundamentals of Computer Science I at Northeastern</p>
+           <p> I'm the outreach chair for <a href="https://nuwit.ccs.neu.edu" target="_blank" title="NUWIT website">Northeastern Women in Technology</a> </p>
+           <p> I collab with an amazing team to organize of <a href="https://hackbeanpot.com" target="_blank" title="HBP website">HackBeanpot</a>, an annual, independent Boston hackathon.</p>
+           <p> I also play club ultimate frisbee on the Northeastern Valkyries! </p>
+           <br>
+           <br>
+             What are my favorite spots in Boston? </p>
+           <ul>
+             <li>Trident Booksellers Cafe</li>
+             <li>Jugos Juice Bar</li>
+             <li>Oakleaf Bake Shop</li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </div>
 
   </body>
   </html>
