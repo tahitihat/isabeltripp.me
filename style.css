@@ -8,17 +8,18 @@ you can refer to any element with a class name but you idNames are specific
 }
 
 p {
-  font-size: 15px
+  font-size: 18px
 }
 
-/*
-https://www.w3schools.com/colors/colors_palettes.asp
-
-.container-fluid {
-  background-color: lightcoral;
+body {
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
-.container {
-  background-color: lightcoral;
+li span {
+  font-weight: normal; 
 }
-*/
+
+body .booklist {
+  font-weight: bold;
+  font-size: 15px;
+}
