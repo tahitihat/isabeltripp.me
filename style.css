@@ -1,12 +1,3 @@
-/*
-you can refer to any element with a class name but you idNames are specific
-*/
-
-/*This is a type name */
-#name {
-  color: green;
-}
-
 p {
   font-size: 18px
 }
