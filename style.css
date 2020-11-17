@@ -1,5 +1,6 @@
 p {
-  font-size: 18px
+  font-size: 18px;
+  text-align: left;
 }
 
 body {
@@ -8,6 +9,10 @@ body {
 
 li span {
   font-weight: normal; 
+}
+
+h2, h3, li {
+  text-align: left;
 }
 
 img {
