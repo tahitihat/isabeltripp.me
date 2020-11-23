@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Isabel Tripp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ 
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-expand-lg navbar-light" style="background-color: #d1e8e2;">
+      <router-link class="nav-link navbar-brand" to="/">Isabel Tripp</router-link>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li><router-link class="nav-link" to="/books">Book List</router-link></li>
+          <li><a class="nav-link" href="ITrippResume.pdf" target="_blank">Resume</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="text-center" style="margin-top: 20px;">
+      <router-view></router-view>
+    </div>
+
+  </div>
+
+  <!-- Vue Pages -->
+  <script src="pages/books.vue.js"></script>
+  <script src="pages/home.vue.js"></script>
+
+  <!-- Vue Instance and Routes -->
+  <script>
+  const routes = [
+    { path: '/', component: Home },
+    { path: '/books', component: Books },
+  ]
+
+  const router = new VueRouter({
+    routes,
+    base: '/'
+  })
+
+  const app = new Vue({
+    router
+  }).$mount('#app')
+  </script>
+
+</body>
+</html>

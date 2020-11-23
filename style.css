@@ -1,0 +1,26 @@
+p {
+  font-size: 18px;
+  text-align: left;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+li span {
+  font-weight: normal; 
+}
+
+h2, h3, li {
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body .booklist {
+  font-weight: bold;
+  font-size: 15px;
+}
