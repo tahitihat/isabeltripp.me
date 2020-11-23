@@ -2,7 +2,7 @@
   "name": "template-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tahitihat.github.io/tahitihat.github.io",
+  "homepage": "https://isabeltripp.me/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
